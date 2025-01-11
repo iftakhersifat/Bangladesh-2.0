@@ -1,3 +1,4 @@
+
 /* nav part */
 nav{
     display: flex;
@@ -57,3 +58,174 @@ nav{
 .imgs{
     padding: 80px;
 }
+
+
+.container{
+    margin: 0px 200px;
+    margin-top: 80px;
+    align-items: center; 
+    margin-bottom: 32px;
+  justify-content: flex-start;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    height: 310px;
+    margin-top: 32px;  
+}
+
+.card-blue{
+    justify-content: left;
+    background-color: rgba(84, 144, 245, 0.20);
+    padding: 32px 32px;
+    border-radius: 16px;
+    width: 425px;
+}
+.card-yellow{
+    background-color: rgba(198, 228, 214, 1.00);
+    padding: 32px 32px;
+    border-radius: 16px;
+    width: 425px;
+}
+.card-green{
+    background-color: rgba(247, 235, 207, 1.00);
+    padding: 32px 32px;
+    border-radius: 16px;
+    width: 425px;
+}
+
+
+/* under */
+.images{
+    display: block;
+    margin-right: 32px; 
+    margin-bottom: 24px; 
+}
+.card-title{
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: left;
+    color: #0E0E0E;
+}
+.cards-des{
+    /* margin-left: 40px; */
+    /* text-align: left; */
+    color: #0E0E0E;
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.card-btn1{
+    background-color: #5490F5;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+    justify-content: left;
+    padding: 11px 20px;
+    display: block;
+}
+.card-btn2{
+    background-color: #09A15C;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+    justify-content: left;
+    padding: 11px 20px;
+    display: block;
+}
+.card-btn3{
+    background-color: #FFC239;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+    justify-content: left;
+    padding: 11px 20px;
+    display: block;
+}
+
+/*  Satelite News Part */
+.news-container{
+    margin: 0px 200px;
+    margin-top: 80px;
+    align-items: center; 
+    margin-bottom: 32px;
+}
+/* background img */
+.orginal-news{
+margin-top: 32px;
+border-radius: 24px;
+border: 1px solid #ddd;
+gap: 20px;
+height: 402px;
+}
+.satelite-news{
+display: flex;
+}
+/* Satelite image part */
+.satelite-img {
+    border-radius: 24px;
+    padding: 40px ;
+    gap: 32px;
+    display: block; 
+}
+.satelite-img img {
+    border-radius: inherit;
+    
+}
+.stl-title{
+display: block;
+gap: 32px;
+width: 100%;
+height: 350px;
+/* padding: 0px 48px; */
+margin-left: 20px !important;
+}
+
+.news-description{
+color: #0E0E0E;
+font-weight: 400px;
+font-size: 16px;
+margin-top: 12px;
+margin-left: 32px;
+margin-right: 32px;
+
+}
+.news-btn{
+background-color: #006A50;
+border-radius: 8px;
+font-weight: 600px;
+font-size: 18px;
+color: #FFFFFF;
+padding: 13px 26px;
+border: none;
+margin-bottom: 57px;
+margin-top: 32px;
+margin-left: 32px;
+}
+.newstitl1{
+margin-top: 56px;
+margin-bottom: 12px;
+margin-left: 32px;
+}
+.aljazeera{
+    margin-left: 32px;
+}
+.date{
+    margin-left: 32px;
+}
+
+
+
+
+
