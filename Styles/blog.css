@@ -1,4 +1,5 @@
 
+
 /* nav part */
 nav{
     display: flex;
@@ -60,6 +61,53 @@ nav{
 }
 
 
+.pillers{
+    margin: 0px 200px;
+    margin-top: 80px;
+    align-items: center; 
+    margin-bottom: 32px;
+  justify-content: flex-start;
+
+}
+.pillers-design{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    height: 244px;
+    margin-top: 32px;  
+}
+
+.pillers-main-design{
+    justify-content: left;
+    background-color: #FFFFFF;
+    border: 1px solid #DDD; 
+    padding: 32px 32px;
+    border-radius: 16px;
+    width: 302px;
+}
+.piller-images{
+    display: block;
+    margin-right: 32px; 
+    margin-bottom: 24px;
+}
+.piller-title{
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: left;
+    color: #0E0E0E;
+}
+.piller-description{
+    color: #0E0E0E;
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+
+/* The Vision of Future */
 .container{
     margin: 0px 200px;
     margin-top: 80px;
@@ -96,9 +144,6 @@ nav{
     border-radius: 16px;
     width: 425px;
 }
-
-
-/* under */
 .images{
     display: block;
     margin-right: 32px; 
@@ -111,8 +156,6 @@ nav{
     color: #0E0E0E;
 }
 .cards-des{
-    /* margin-left: 40px; */
-    /* text-align: left; */
     color: #0E0E0E;
     font-weight: 400px;
     font-size: 16px;
@@ -154,7 +197,55 @@ nav{
     display: block;
 }
 
-/*  Satelite News Part */
+/* Motivational Speech */
+.motivation {
+    background-color: #FFFFFF; 
+    background-image: url("../images2.0/quote-bg.png");
+    background-repeat: no-repeat; 
+    background-position: 25px 22px; 
+    border: 1px solid #DDD; 
+    border-radius: 16px; 
+    margin: 80px 200px 32px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.quote-icon {
+    font-size: 48px;
+    color: #B3B3B3;
+    margin-bottom: 16px;
+}
+
+.motivational-speech {
+    font-weight: 400; 
+    font-size: 16px;
+    color: #0E0E0E; 
+    line-height: 1.6; 
+    margin-bottom: 12px;
+}
+
+.author {
+    text-align: left; 
+}
+
+.author-name {
+    margin-top: 12px;
+    font-size: 20px; 
+    font-weight: 600; 
+    color: #0E0E0E; 
+    margin-bottom: 4px;
+}
+
+.author-title {
+    font-weight: 400px; 
+    font-size: 16px; 
+    color: #6F6F6F;
+}
+
+
+/* Recent News Part */
 .news-container{
     margin: 0px 200px;
     margin-top: 80px;
@@ -189,7 +280,7 @@ gap: 32px;
 width: 100%;
 height: 350px;
 /* padding: 0px 48px; */
-margin-left: 20px !important;
+margin-left: 20px;
 }
 
 .news-description{
@@ -225,7 +316,138 @@ margin-left: 32px;
     margin-left: 32px;
 }
 
+/* Donation Section Part */
+.donate-section {
+    margin: 0px 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+.donate-title {
+    color: #0E0E0E; 
+    margin-bottom: 32px;
+    margin: 0px auto; 
+}
+
+.donate-description {
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 24px; 
+}
+
+.donation-options {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.donation-option {
+    background-color: #FFFFFF; 
+    border: 1px solid #CCCCCC; 
+    border-radius: 16px; 
+    padding: 40px 40px;
+    font-size: 40px; 
+    font-weight: 700px;
+    color: #0E0E0E;
+}
 
 
+.donation-option.active {
+    background-color: #D8F3E0;
+    color: #006A50;
+    border: 1px solid #006A50;
+}
+.custom-amount {
+    max-width: 100%;
+    padding: 20px 423px;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px; 
+    color: #0E0E0E;
+}
+.donate-button {
+    background-color: #006A50;
+    color: #FFFFFF; 
+    border: none; 
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-top: 32px;
+}
 
+/* Subscribe Section */
+.subscribe-newsletter{
+    margin: 0px 200px;
+    /* margin-top: 80px; */
+    margin-bottom: 32px;
+    border-radius: 24px;
+    padding: 80px; 
+    height: 395px;
+    text-align: center;
+    background-color: rgba(198, 228, 214, 1.00);
+}
+.newsletter-title{
+    color: #0E0E0E;
+    font-weight: 700px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+.newsletter-description{
+    font-size: 16px; 
+   font-weight: 400px;
+   color: #0E0E0E; 
+   max-width: 600px;
+   margin: 0 auto; 
+   margin-bottom: 24px;
+}
+.newsletter-input {
+    flex: 1;
+    max-width: 500px; 
+    padding: 12px 16px; 
+    border: 1px solid #CCCCCC; 
+    border-radius: 8px; 
+    outline: none;
+}
 
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+.newsletter-button{
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 18px;
+    border: none;
+
+}
+.newsletter-footer{
+    color: #0E0E0E;
+    font-weight: 400px;
+    font-size: 16px;
+}
+/* Footer Section */
+.footer-section{
+    margin-top: 80px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #DDD;
+    padding: 40px ;
+}
+.footer-img{
+    margin-top: 32px;
+    margin-bottom: 50px;
+    padding: 8px 8px;
+}
+.footer-bd{
+    
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
